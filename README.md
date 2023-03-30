@@ -146,30 +146,42 @@ To determine the number of retiring employees per title, and identify employees 
 •	At the time of this analysis there are currently 300,024 employees in the company. (As per the deliverable “employees.cvs” )
 
 •	There are 1549 unique titles  
- 
+ ![image](https://user-images.githubusercontent.com/117233641/228741552-9ba84e89-1579-4792-ae55-fbb8786f8acc.png)
+
 
 •	Where a large majority of the retiring staff are members of Senior Management (As per the deliverable “retiring_titles.cvs”
  
+ ![image](https://user-images.githubusercontent.com/117233641/228741576-5f372f42-2004-4023-9968-f90952ccf190.png)
+
 
 •	Number of eligible employees 
+
+![image](https://user-images.githubusercontent.com/117233641/228741614-e85e35d0-ebe3-40ac-aec0-f46765bfe2e4.png)
+
  
 
 Created an initial map of the database, using an online tool called Quick Database Diagrams ("Quick DBD" for short). This map will illustrate each table in the database and the flow of data from one table to another. For this example, as Data Analyst, I have chosen to look at the “emp_no” as the primary key noted in most of the data sets (csv files).
  
+ ![image](https://user-images.githubusercontent.com/117233641/228741656-4c3b9826-8343-49c3-8f43-7924382e5955.png)
+
 •	
 ##Summary:
 
  Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
  
 
-o	How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+    o	How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
 The Pewlett-Hackard analysis summary
 72 458 roles will need to be filled as the "silver tsunami" begins to make an impact for next 3 years. But per year it will be as below on the screen:
 
- 
+ ![image](https://user-images.githubusercontent.com/117233641/228741716-28f849df-24fb-42ba-8473-ddd297cf641c.png)
+
 
 •	Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 Additional analysis shows that qualified employees are not enough per the departments to mentor the next generation of Pewlett Hackard employees.
 
+•	 Additional analysis shows that qualified employees are not enough per the departments to mentor the next generation of Pewlett Hackard employees.
  
+ ![image](https://user-images.githubusercontent.com/117233641/228741791-426491a8-3b1c-423f-9705-f2ae80a0ce23.png)
+
