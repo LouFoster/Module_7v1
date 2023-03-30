@@ -19,20 +19,24 @@ Follow the instructions below to complete Deliverable 1.
 
 5.	Filter the data on the birth_date column to retrieve the employees who were born between 1952 and 1955. Then, order by the employee number.
 
- 
+ ![image](https://user-images.githubusercontent.com/117233641/228740040-71718828-e5ff-4122-a3be-7245b88855c2.png)
+
 
 6.	Export the Retirement Titles table from the previous step as retirement_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
 
- 
+ ![image](https://user-images.githubusercontent.com/117233641/228740095-16911b52-4c8e-48b7-8986-61065fde18c4.png)
+
 
 8.	Copy the query from the Employee_Challenge_starter_code.sql and add it to your Employee_Database_challenge.sql file.
 
 9.	Retrieve the employee number, first and last name, and title columns from the Retirement Titles table.
 
 
-o	These columns will be in the new table that will hold the most recent title of each employee.
+    o	These columns will be in the new table that will hold the most recent title of each employee.
 
-o	Exported the “Current Titles.csv “and saved to Data folder in the Pewlett-Hackard-Analysis folder.
+    o	Exported the “Current Titles.csv “and saved to Data folder in the Pewlett-Hackard-Analysis folder.
+
+![image](https://user-images.githubusercontent.com/117233641/228740217-b6d20d14-15cd-4c95-bf7d-f6e29722ed93.png)
 
  
 10.	Use the DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows defined by the ON () clause.
@@ -47,6 +51,7 @@ o	Exported the “Current Titles.csv “and saved to Data folder in the Pewlett-
 
 14.	Export the Unique Titles table as unique_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
 
+![image](https://user-images.githubusercontent.com/117233641/228740265-f0c3aec9-6f5d-45a9-af89-bffd6b927785.png)
 
  
 
@@ -54,19 +59,24 @@ o	Exported the “Current Titles.csv “and saved to Data folder in the Pewlett-
 
 17.	First, retrieve the number of titles from the Unique Titles table.
  
+![image](https://user-images.githubusercontent.com/117233641/228740953-ecda084e-4400-4807-b3cb-a955202c4add.png)
+
+
 18.	Then, create a Retiring Titles table to hold the required information.
 
 19.	Group the table by title, then sort the count column in descending order.
 
+![image](https://user-images.githubusercontent.com/117233641/228741006-a78789f8-d5ab-43cc-b476-8dde1ea64de5.png)
 
- 
 
 20.	Export the Retiring Titles table as retiring_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
 
+![image](https://user-images.githubusercontent.com/117233641/228741042-b3b796e9-96cd-4276-ad35-14ac176ca44c.png)
  
 22.	Save your Employee_Database_challenge.sql file in your Queries folder in the Pewlett-Hackard folder.
 
-Deliverable 2: The Employees Eligible for the Mentorship Program 
+##Deliverable 2: The Employees Eligible for the Mentorship Program 
+
 In the Employee_Database_challenge.sql file, write a query to create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program.
 
 1.	Retrieve the emp_no, first_name, last_name, and birth_date columns from the Employees table.
@@ -76,11 +86,13 @@ In the Employee_Database_challenge.sql file, write a query to create a Mentorshi
 
 3.	Retrieve the title column from the Titles table.
  
+ ![image](https://user-images.githubusercontent.com/117233641/228741145-0a1d29a7-b943-4d57-b4b6-81ccd6399509.png)
 
 4.	Use a DISTINCT ON statement to retrieve the first occurrence of the employee number for each set of rows defined by the ON () clause.
 
 5.	Create a new table using the INTO clause.
 
+![image](https://user-images.githubusercontent.com/117233641/228741201-4127f4f5-f94c-4c0e-bfe4-979ec7568c84.png)
 
  
 6.	Join the Employees and the Department Employee tables on the primary key.
@@ -92,24 +104,35 @@ In the Employee_Database_challenge.sql file, write a query to create a Mentorshi
 
 9.	Order the table by the employee number.
  
+ ![image](https://user-images.githubusercontent.com/117233641/228741253-b3656010-0bc7-40ac-a928-9b0e28d5a548.png)
+
 
 10.	Export the Mentorship Eligibility table as mentorship_eligibilty.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
 
- 
+ ![image](https://user-images.githubusercontent.com/117233641/228741288-a0e05df4-b7bf-42e7-893e-f1d91aa5cdf3.png)
+
 
 Deliverable 3: A written report on the employee database analysis (20 points)
+
 For this part of the Challenge, you’ll write a report to help the manager prepare for the upcoming "silver tsunami."
+
 The analysis should contain the following:
+
 ##Overview of the analysis: Explain the purpose of this analysis.
 (As captured from Data Bootcamp Module 7) 
 
 I am the assigned Data Analyst assisting Bobby an HR analyst whose task is to perform employee research. As the Data Analyst, I will be applying my knowledge of DataFrames and tabular data, I will create entity relationship diagrams (ERDs), import data into a database, troubleshoot common errors, and create queries that use data to answer questions.
 
 By the end of this module, as assigned Data Analyst, I will complete the following::
+
 •	Design an ERD that will apply to the data.
+
 •	Create and use a SQL database.
+
 •	Import and export large CSV datasets into pgAdmin.
+
 •	Practice using different joins to create new tables in pgAdmin.
+
 •	Write basic- to intermediate-level SQL statements.
 
 
@@ -137,6 +160,7 @@ Created an initial map of the database, using an online tool called Quick Databa
 ##Summary:
 
  Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+ 
 
 o	How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
